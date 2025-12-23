@@ -35,9 +35,9 @@ def deposit():
     if account:
         amount = float(input("Enter amount to deposit: "))
         account["balance"] += amount
-        print("💰 Amount deposited successfully!")
+        print(" Amount deposited successfully!")
     else:
-        print("❌ Account not found!")
+        print(" Account not found!")
 
 
 # Function to withdraw money
@@ -92,3 +92,4 @@ while True:
         break
     else:
         print(" Invalid choice! Please try again.")
+
